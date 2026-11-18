@@ -1,0 +1,17 @@
+# ESP-IDF build output
+build/
+sdkconfig.old
+sdkconfig.bak*
+
+# Component manager cache (regenerated from dependencies.lock)
+managed_components/
+
+# Logs
+*.log
+*.out
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
